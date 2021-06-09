@@ -8,7 +8,7 @@
     color: white;
 }
 body{
-    background-color: whitesmoke;
+    background-color: rgb(228, 155, 224);
 }
 .grid{
     display: flex;
@@ -29,16 +29,19 @@ body{
 .centered {
     position: absolute;
     top: 50%;
-    bottom: 35%;
+    bottom: 40%;
     left: 50%;
     right: 20%;
     transform: translate(-50%, -50%);    
   }
-  .top{
+.top{
     position: absolute;
     top: 50%;
-    bottom: 5%;
+    bottom: 16%;
     left: 50%;
     right: 20%;
     transform: translate(-50%, -50%);
-  }
+}
+h1{
+    color: white;    
+}
